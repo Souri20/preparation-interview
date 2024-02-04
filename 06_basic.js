@@ -7,7 +7,7 @@ let checkPrime=(num)=>{
         for(let i=2; i<=num/2; i++ ){
             if(num % i == 0){
                 return false
-                
+
 
             }else{
                 return true
@@ -15,5 +15,6 @@ let checkPrime=(num)=>{
         }
     }
 }
+
 
 console.log(checkPrime(19))
